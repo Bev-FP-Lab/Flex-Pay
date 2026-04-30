@@ -23,4 +23,5 @@ export default async function Page({
       <Post {...post} />
     </main>
   )
+  
 }

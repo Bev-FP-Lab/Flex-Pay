@@ -24,7 +24,7 @@ export function Header() {
               className="hover:text-pink-500 transition-colors"
               href="/studio"
             >
-              Sanity Studio
+              Login
             </Link>
           </li>
         </ul>
