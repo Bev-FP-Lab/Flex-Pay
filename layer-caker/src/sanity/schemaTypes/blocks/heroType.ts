@@ -1,28 +1,24 @@
 import { defineField, defineType } from "sanity";
+import { TextIcon } from "@sanity/icons";
 
-export const splitImageType = defineType({
-  name: "splitImage",
+export const heroType = defineType({
+  name: "hero",
   type: "object",
   fields: [
     defineField({
-      name: "orientation",
-      type: "string",
-      options: {
-        list: [
-          { value: "imageLeft", title: "Image Left" },
-          { value: "imageRight", title: "Image Right" },
-        ],
-      },
-    }),
-    defineField({
       name: "title",
       type: "string",
+    }),
+    defineField({
+      name: "text",
+      type: "blockContent",
     }),
     defineField({
       name: "image",
       type: "image",
     }),
   ],
+    icon: TextIcon,
   preview: {
     select: {
       title: "title",
@@ -31,8 +27,8 @@ export const splitImageType = defineType({
     prepare({ title, media }) {
       return {
         title,
-        subtitle: "Text and Image",
-        media
+        subtitle: "Hero",
+        media: media ?? TextIcon,
       };
     },
   },
