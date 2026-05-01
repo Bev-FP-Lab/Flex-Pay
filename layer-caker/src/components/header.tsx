@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Image from 'next/image';
+import companyLogo from "../../public/logo.png";
 
 export function Header() {
   return (
@@ -8,7 +10,7 @@ export function Header() {
           className="text-pink-700 md:text-xl font-bold tracking-tight"
           href="/"
         >
-          FLEX-PAY
+            <Image className="object-cover" src={companyLogo} alt = "company logo" />
         </Link>
         <ul className="flex items-center gap-4 font-semibold text-slate-700">
           <li>
