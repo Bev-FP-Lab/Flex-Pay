@@ -15,6 +15,22 @@
 export declare const internalGroqTypeReferenceTo: unique symbol;
 
 // Source: src/sanity/extract.json
+export type PageReference = {
+  _ref: string;
+  _type: "reference";
+  _weak?: boolean;
+  [internalGroqTypeReferenceTo]?: "page";
+};
+
+export type SiteSettings = {
+  _id: string;
+  _type: "siteSettings";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  homePage?: PageReference;
+};
+
 export type SanityImageAssetReference = {
   _ref: string;
   _type: "reference";
@@ -367,6 +383,8 @@ export type Geopoint = {
 };
 
 export type AllSanitySchemaTypes =
+  | PageReference
+  | SiteSettings
   | SanityImageAssetReference
   | SplitImage
   | Hero

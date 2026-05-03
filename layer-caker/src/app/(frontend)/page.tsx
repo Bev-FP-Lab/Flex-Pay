@@ -25,7 +25,7 @@ import bank from "../../../public/bank.jpg"
 
 export default async function Page() {
   return (
-    <><><><><><><section className="container mx-auto grid grid-cols-3 gap-6 p-12 bg-indigo-800 ">
+    <><><><><><><><section className="container mx-auto grid grid-cols-3 gap-6 p-12 bg-indigo-800 ">
       <TitleThree>Scale Evolve and Innovate with FLEX-PAY</TitleThree>
       <Image className="object-cover" src={mobile1Sneaker} alt="company logo" />
 
@@ -65,9 +65,9 @@ export default async function Page() {
           <h2 className="text-[15px] font-sans">Flex-Pay’s white-label framework enables fully branded, customizable payment experiences through seamless integration. Businesses can scale confidently while maintaining full ownership of their interface and brand identity. </h2>
         </div>
       </section></><section className="container mx-auto grid grid-cols-1 gap-6 p-12 bg-indigo-800 ">
-        <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> PAYMENT INFRASTRUCTURE DESIGNED FOR GROWTH </h1>
+        <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty text-white"> PAYMENT INFRASTRUCTURE DESIGNED FOR GROWTH </h1>
 
-        <h1 className="text-0.5xl md:text-2xl lg:text-3xl text-slate-800 text-pretty max-w-3xl text-white font-sans my-7 text-plain"> Flex-Pay unifies nine payment architectures through one streamlined API—simplifying transactions, improving efficiency, and driving financial inclusivity. </h1>
+        <h1 className="text-0.5xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-plain"> Flex-Pay unifies nine payment architectures through one streamlined API—simplifying transactions, improving efficiency, and driving financial inclusivity. </h1>
       </section></><section className="container mx-auto grid grid-cols-1 gap-6 p-12">
         <h1 className="text-[35px] text-center font-sans m-1">THE FLEX-PAY SOLUTIONS </h1>
         <div>
@@ -118,36 +118,95 @@ export default async function Page() {
       </section></><section className="container mx-auto grid grid-cols-1 gap-6 p-12 bg-indigo-800 ">
         <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> GLOBAL REACH </h1>
 
-        <h1 className="text-0.5xl md:text-2xl lg:text-3xl text-slate-800 text-pretty max-w-3xl text-white font-sans my-7 text-plain"> Unlock Global Payment Flexibility Empower cross-border commerce with Flex-Pay's expansive network of payment methods, multi-currency support, and worldwide integrations. 
+        <h1 className="text-0.5xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-plain"> Unlock Global Payment Flexibility Empower cross-border commerce with Flex-Pay's expansive network of payment methods, multi-currency support, and worldwide integrations.
           Grow effortlessly, transact securely, and scale your business globally. </h1>
-                  <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> FLEX-PAY ECOSYSTEM AT A GLANCE: </h1>
+        <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> FLEX-PAY ECOSYSTEM AT A GLANCE: </h1>
 
-          <div className="container mx-auto grid grid-cols-4 gap-6 p-12 bg-indigo-800 "> 
-          <div> 
-          <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> +400 </h1>
-          <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> INTEGRATIONS </h1> 
-          <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Comprehensive network spanning all major payment types and regional preferences. </h1> 
+        <div className="container mx-auto grid grid-cols-4 gap-6 p-12 bg-indigo-800 ">
+          <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> +400 </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> INTEGRATIONS </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Comprehensive network spanning all major payment types and regional preferences. </h1>
 
-          </div> 
-          <div> 
-          <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> +140 </h1>
-          <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> COUNTRIES COVERED </h1> 
-          <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Global reach across six continents with localized payment solutions. </h1> 
+          </div>
+          <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> +140 </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> COUNTRIES COVERED </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Global reach across six continents with localized payment solutions. </h1>
 
-          </div> 
-          <div> 
-          <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> +120 </h1>
-          <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> CURRENCIES SUPPORTED </h1> 
-          <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Multi-currency processing enabling true international commerce capabilities. </h1> 
-          
-          </div> 
-          <div> 
-          <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> 9 </h1>
-           <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> PAYMENT CATEGORIES </h1> 
-            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Complete coverage from traditional cards and interest free payments to emerging cryptocurrency solutions. </h1> 
+          </div>
+          <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> +120 </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> CURRENCIES SUPPORTED </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Multi-currency processing enabling true international commerce capabilities. </h1>
 
-          </div> 
-          </div> 
+          </div>
+          <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> 9 </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> PAYMENT CATEGORIES </h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain"> Complete coverage from traditional cards and interest free payments to emerging cryptocurrency solutions. </h1>
+
+          </div>
+        </div>
+      </section></>
+      <section className="container mx-auto grid grid-cols-1 gap-6 p-12 bg-linear-to-r from-black to-red-900 content-center">
+
+        <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+        <Link
+              href="/signup"
+            >
+                    
+                     <button className="bg-white hover:bg-purple-900 text-black font-bold py-3 px-135 rounded-full">
+        SIGN UP
+        </button>
+            </Link>
+ 
+      </section><section className="container mx-auto grid grid-cols-2 gap-6 p-12 bg-linear-to-r from-black to-red-900 content-center">
+
+       
+        <Link href="/signup">
+
+         <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+            
+                    
+
+            </Link>
+        <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+        <Link
+              href="/signup"
+            >
+                    
+            
+            </Link>
+        <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+        <Link
+              href="/signup"
+            >
+                    
+            
+            </Link>
+        <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+        <Link
+              href="/signup"
+            >
+                    
+            
+            </Link>
+        <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+        <Link
+              href="/signup"
+            >
+                    
+            
+            </Link>
+        <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
+        <Link
+              href="/signup"
+            >
+                    
+            
+            </Link>
+ 
       </section></>
 
   )
