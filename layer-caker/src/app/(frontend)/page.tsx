@@ -155,8 +155,8 @@ export default async function Page() {
         <Link
               href="/signup"
             >
-                      <div className = "flex justify-center"> 
-                     <button className="bg-white hover:bg-purple-900 text-black font-bold px-4 py-3 rounded-full">
+              <div className = "flex justify-center"> 
+              <button className="bg-white hover:bg-purple-900 text-black font-bold px-4 py-3 rounded-full">
         SIGN UP
         </button>
             </div> 
