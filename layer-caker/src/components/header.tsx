@@ -27,7 +27,7 @@ export function Header() {
               className="hover:text-pink-500 transition-colors"
               href="/posts"
             >
-              FLEX-NEWS
+              Insights & Press
             </Link>
           </li>
           <li>

@@ -34,10 +34,11 @@ export default async function Page() {
         <Link
           href="/signup"
         >
-
-          <button className="bg-white hover:bg-purple-900 text-black font-bold py-3 px-135 rounded-full">
-            SIGN UP
-          </button>
+   <div className = "flex justify-center"> 
+              <button className="bg-white hover:bg-purple-900 text-black font-bold px-4 py-3 rounded-full">
+        SIGN UP
+        </button>
+            </div> 
         </Link>
 
       </section><section className="container mx-auto grid grid-cols-2 gap-6 p-12 bg-purple-900 content-center">
