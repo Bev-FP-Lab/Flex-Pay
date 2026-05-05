@@ -14,6 +14,14 @@ export function Header() {
             <Image className="object-cover" src={companyLogo} alt = "company logo" />
         </Link>
         <ul className="flex items-center gap-4 font-semibold text-slate-700">
+            <li>
+            <Link
+              className="hover:text-pink-500 transition-colors"
+              href="/flexpaydirect"
+            >
+              Flex-Pay Direct
+            </Link>
+          </li>
            <li>
             <Link
               className="hover:text-pink-500 transition-colors"
