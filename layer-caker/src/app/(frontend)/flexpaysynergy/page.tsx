@@ -122,10 +122,10 @@ Transaction Optimization </h1>
 
 
           </div> 
-        <div className="container mx-auto grid grid-cols-1 gap-6 p-12 bg-indigo-800 ">
+        <div className="container mx-auto grid grid-cols-1 gap-2 p-10 bg-indigo-800 ">
         <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white">Continuous Feature Expansion:</h1>
-                    <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain">Integrate once and future-proof your product.</h1>
-                                      <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain">The platform continuously updates itself, adding new payment brands and services automatically without requiring additional development effort from your team.</h1>
+                    <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-2 text-plain"><b>Integrate once and future-proof your product.</b></h1>
+                                      <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-2 text-plain">The platform continuously updates itself, adding new payment brands and services automatically without requiring additional development effort from your team.</h1>
 
         </div>
 <div className="container mx-auto grid grid-cols-3 gap-6 p-12 bg-indigo-800 ">
@@ -149,49 +149,66 @@ Zero Development </h1>
      
 
         </div>
-        <div className="container mx-auto grid grid-cols-4 gap-6 p-12">
-
-                              <Image className="object-cover m-4" src={woo} alt="company logo" />
-                      <Image className="object-cover m-4" src={bigcommerce} alt="company logo" />
-                      <Image className="object-cover m-4" src={magento} alt="company logo" />
-                      <Image className="object-cover m-4" src={salesforce} alt="company logo" />
-
+        <div className="container mx-auto grid grid-cols-1 gap-6 p-12">
+<h1 className="text-[35px] text-center font-sans">Rapid Deployment, Revenue Focus </h1>
+        <h2 className="text-[20px] font-sans mx-20">The Synergy Gateway is built for unrivaled simplicity and speed-to-market. By plugging our solution into your existing infrastructure, you gain instant scalability. </h2>
+        
           </div> 
+          
             </div>
-
+        
           </section>
           <section className="container mx-auto grid grid-cols-1 gap-6 p-12 bg-indigo-800 ">
-      <TitleThree>Innovation that eliminates the complexities of payment orchestration.</TitleThree>
-            <TitleTwo>Unlock unparalleled payment options and services with one unified connection.</TitleTwo>
+      <div className="container mx-auto grid grid-cols-3 gap-6 p-12 bg-indigo-800 ">
+
+          <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white">Full White-Labeling</h1>
+            <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain">Our white-label functions give you total brand control over the user experience and interface, powered by our advanced technical features.
+          Customize the platform instance entirely to match your specific branding guidelines. 
+<ul className="list-disc list-inside"> 
+
+  <li> White-labeling and customization features are included at no additional cost. </li> 
+  <li> Enjoy ongoing development and refinement of the white-label environment. </li> 
+</ul>
+
+</h1>
+
+          </div>
+          <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> Tiered Account Management </h1>
+                    <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain">The platform’s multi-level account hierarchy simplifies expansion, providing the necessary control and flexibility for growth without introducing complexity.
+<ul className="list-disc list-inside"> 
+
+  <li> No added fee for utilizing the hierarchical structure. </li> 
+  <li> Ability to precisely curate payment method availability across merchant tiers.</li> 
+    <li> Access to detailed merchant reporting and analytics suite.</li> 
+
+</ul>
+
+</h1>
+
+          </div>
+                    <div>
+            <h1 className="text-1xl md:text-3xl lg:text-5xl font-bold text-slate-800 text-pretty max-w-5xl text-white"> 
+A Profit Center, Not an Expense </h1>
+                    <h1 className="text-0.5xl md:text-1.5xl lg:text-2.5xl text-slate-800 text-pretty max-w-2.5xl text-white font-sans my-7 text-plain">The Synergy Gateway is designed to generate revenue, transforming what is typically an operational cost into a profitable opportunity for business growth and higher income.
+<ul className="list-disc list-inside"> 
+
+  <li> Billing operates on a simple, flat-rate fee per transaction event.. </li> 
+  <li> Dedicated integration support and expert guidance are provided. </li> 
+  <li> Empower your merchants with services that drive greater revenue potential for their business.</li> 
+</ul>
+
+</h1>
+
+          </div>
+     
+
+        </div>
 
 
     </section>
-    <section className="container mx-auto grid grid-cols-2 gap-6 p-12">
-                      <Image className="object-cover m-4" src={floatingphone} alt="company logo" />
-            <div> 
-            <Title>How FLEX-PAY Direct Works</Title> 
-            <br></br>
-            <h2 className="text-1x0.5 md:text-1xl lg:text-2xl font-bold text-slate-800 text-pretty text-black"> Innovation that eliminates the complexities of payment orchestration. Our sophisticated architecture handles the technical heavy lifting, allowing you to focus on delivering exceptional customer experiences. </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-2xl font-bold text-slate-800 text-pretty text-black">Merchant Integration </h2>
-            <br></br> 
-            <h2 className="text-1x0.3 md:text-1xl lg:text-1.5xl font-bold text-slate-800 text-pretty text-black">Streamline and enhance your entire customer journey with rapid, one-time integration. Unlock unparalleled </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-2xl font-bold text-slate-800 text-pretty text-black">Intelligent Routing </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-1.5xl font-bold text-slate-800 text-pretty text-black">Streamline and enhance your entire customer journey with rapid, one-time integration. Unlock unparalleled </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-2xl font-bold text-slate-800 text-pretty text-black">Payment Processing </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-1.5xl font-bold text-slate-800 text-pretty text-black">Streamline and enhance your entire customer journey with rapid, one-time integration. Unlock unparalleled </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-2xl font-bold text-slate-800 text-pretty text-black">Customer Completion </h2>
-            <br></br> 
-            <h2 className="text-1x0.5 md:text-1xl lg:text-1.5xl font-bold text-slate-800 text-pretty text-black">Streamline and enhance your entire customer journey with rapid, one-time integration. Unlock unparalleled </h2>
-
-            </div> 
-
-    </section>
+    
       <section className="container mx-auto grid grid-cols-1 gap-6 p-12 bg-linear-to-r from-black to-red-900 content-center">
 
         <h1 className="text-1xl md:text-2xl lg:text-3xl text-slate-800 text-pretty text-white font-sans my-7 text-center text-plain"> Get in touch with us today to discover how Flex-Pay is shaping the future of global payments. </h1>
