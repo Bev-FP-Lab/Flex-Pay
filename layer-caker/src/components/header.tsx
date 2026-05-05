@@ -25,11 +25,20 @@ export function Header() {
            <li>
             <Link
               className="hover:text-pink-500 transition-colors"
+              href="/flexpaysynergy"
+            >
+              Flex-Pay Synergy
+            </Link>
+          </li>
+           <li>
+            <Link
+              className="hover:text-pink-500 transition-colors"
               href="/bottomheader/aboutus"
             >
               About
             </Link>
           </li>
+          
           <li>
             <Link
               className="hover:text-pink-500 transition-colors"
